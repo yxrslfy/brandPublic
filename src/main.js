@@ -11,6 +11,7 @@ import Overview from './components/brand-classific/overview/Overview.vue'
 import Comment from './components/brand-classific/comment/Comment.vue'
 import Summary from './components/brand-classific/summary/Summary.vue'
 import Analysis from './components/brand-classific/analysis/Analysis.vue'
+import Report from './components/report/Report.vue'
 import BrandList from './components/brand-list/BrandList.vue'
 import Detail from './components/detail/Detail.vue'
 import 'element-ui/lib/theme-default/index.css'
@@ -45,6 +46,10 @@ const routes = [
         component: Analysis
       }
     ]
+  },
+  {
+    path: '/report',
+    component: Report
   },
   {
     path: '/list',

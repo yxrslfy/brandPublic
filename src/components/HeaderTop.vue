@@ -13,7 +13,7 @@
           <el-menu-item index="/classific/comment">网民评价</el-menu-item>
         </el-submenu>
         <el-menu-item index="/classific/analysis">质量分析</el-menu-item>
-        <el-menu-item index="/list">质量报告</el-menu-item>
+        <el-menu-item index="/report">质量报告</el-menu-item>
         <el-menu-item index="/detail">个人中心</el-menu-item>
       </el-menu>
     </div>
